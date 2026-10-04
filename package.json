@@ -1,0 +1,14 @@
+{
+  "name": "sentinel-kit",
+  "version": "2.0.0",
+  "description": "Integrity verification + kill-switch toolkit",
+  "main": "./main.js",
+  "exports": {
+    ".": "./main.js",
+    "./generate": "./main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
