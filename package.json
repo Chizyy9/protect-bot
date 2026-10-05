@@ -5,7 +5,7 @@
   "main": "./main.js",
   "exports": {
     ".": "./main.js",
-    "./generate": "./main.js"
+    "./generate": "./generate.js"
   },
   "license": "MIT",
   "dependencies": {
