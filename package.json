@@ -1,0 +1,10 @@
+{
+  "name": "protect-kit",
+  "version": "1.0.0",
+  "private": true,
+  "main": "protect.js",
+  "type": "commonjs",
+  "scripts": {
+    "protect": "node protect.js"
+  }
+}
