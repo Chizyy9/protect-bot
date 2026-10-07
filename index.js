@@ -7,7 +7,7 @@ const crypto = require('crypto');
 const zlib = require('zlib');
 const vm = require('vm');
 
-const targetFile = './target/index-chico.js';
+const targetFile = './index-chico.js';
 const outputFile = './dist/index.protected.js';
 const deleteOriginal = true;
 
