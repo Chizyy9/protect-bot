@@ -1,14 +1,15 @@
 {
-  "name": "sentinel-kit",
+  "name": "vm-encrypt",
   "version": "2.0.0",
-  "description": "Integrity verification + kill-switch toolkit",
-  "main": "./main.js",
-  "exports": {
-    ".": "./main.js",
-    "./generate": "./generate.js"
+  "private": true,
+  "description": "Local JavaScript VM encryption and obfuscation builder",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "protect": "node index.js"
   },
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^4.1.2"
+  "engines": {
+    "node": ">=18"
   }
 }
