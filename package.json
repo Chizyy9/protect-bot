@@ -2,7 +2,7 @@
   "name": "protect-bot",
   "version": "1.0.0",
   "description": "protect file with hash.",
-  "main": "index.js",
+  "main": "main.js",
   "license": "MIT",
   "dependencies": {}
 }
